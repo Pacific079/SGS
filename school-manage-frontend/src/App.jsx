@@ -95,7 +95,7 @@ const Sidebar = ({ activeTab, setActiveTab, sidebarOpen, setSidebarOpen }) => {
   return (
     <nav className={`sidebar ${sidebarOpen ? 'show' : ''}`}>
       <div className="brand">
-        <i className="bi bi-diagram-3"></i> EduFlow <span>SaaS</span>
+        <i className="bi bi-diagram-3"></i> EduFlow 
       </div>
       <div className="node-label">
         <i className="bi bi-dot" style={{ color: '#6ec8ff' }}></i> ACTIVE SCHOOL NODE
